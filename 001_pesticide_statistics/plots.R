@@ -17,7 +17,7 @@ ggplot(data_1, aes(x=A, y=B, fill=A)) +
   ) +
   theme_minimal() +
   labs(
-    title = "İl Düzeyinde Bitki Koruma Ürünlerinin Kullanım (Zirai Mücadele Uygulamalarında) Miktarları, 2021",
+    title = "İl Düzeyinde Bitki Koruma Ürünlerinin Kullanım Miktarları (Zirai Mücadele Uygulamalarında), 2021",
     subtitle = "En fazla pestisit kullanılan ilk on il ve kullanım miktarları",
     x = "",
     y = "Kullanım Miktarı (Ton)",
@@ -43,7 +43,7 @@ ggplot(data_1, aes(x=A, y=C, fill=A)) +
   ) +
   theme_minimal() +
   labs(
-    title = "İl Düzeyinde Bitki Koruma Ürünlerinin Kullanım (Zirai Mücadele Uygulamalarında) Miktarları, 2021",
+    title = "İl Düzeyinde Bitki Koruma Ürünlerinin Kullanım Miktarları (Zirai Mücadele Uygulamalarında), 2021",
     subtitle = "En fazla pestisit kullanılan ilk on il ve toplam kullanılan miktar içindeki payları",
     x = "",
     y = "Toplamdaki Payı (%)",
@@ -75,13 +75,12 @@ ggplot(data_2, aes(x=A, y=B, fill=A)) +
   ) +
   theme_minimal() +
   labs(
-    title = "Bitki Koruma Ürünlerinin (Gruplara Ayrılmış Olarak) Kullanım Miktarları, 2021",
+    title = "Bitki Koruma Ürünlerinin Kullanım Miktarları (Gruplara Ayrılmış Olarak), 2021",
     subtitle = "Toplam pestisit kullanım miktarının gruplara göre dağılımı",
     x = "",
     y = "Kullanım Miktarı (Ton)",
     caption = "*Diğerleri: Bitki Aktivatörü+Bitki Gelişim Düzenleyici+Böcek Cezbedici+Fumigant+Nematisit, Kaynak: T.C. Tarım Ve Orman Bakanlığı Gıda Ve Kontrol Genel Müdürlüğü"
   ) +
-  scale_fill_hue(h = c(110, 150)) +
   theme(
     text = element_text(size=14),
     axis.title.x = element_text(colour = "grey30", margin = margin(t = 10, unit = "pt")),
@@ -101,13 +100,12 @@ ggplot(data_2, aes(x=A, y=C, fill=A)) +
   ) +
   theme_minimal() +
   labs(
-    title = "Bitki Koruma Ürünlerinin (Gruplara Ayrılmış Olarak) Kullanım Miktarları, 2021",
+    title = "Bitki Koruma Ürünlerinin Kullanım Miktarları (Gruplara Ayrılmış Olarak), 2021",
     subtitle = "Toplam pestisit kullanım miktarının gruplara göre dağılım yüzdeleri",
     x = "",
     y = "Toplamdaki Payı (%)",
     caption = "*Diğerleri: Bitki Aktivatörü+Bitki Gelişim Düzenleyici+Böcek Cezbedici+Fumigant+Nematisit, Kaynak: T.C. Tarım Ve Orman Bakanlığı Gıda Ve Kontrol Genel Müdürlüğü"
   ) +
-  scale_fill_hue(h = c(200, 240)) +
   theme(
     text = element_text(size=14),
     axis.title.x = element_text(colour = "grey30", margin = margin(t = 10, unit = "pt")),
