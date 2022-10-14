@@ -1,8 +1,14 @@
 ## Plot 1A
-![alt text](image/plot_1A.png "Title")
+![En fazla pestisit kullanılan ilk on il ve kullanım miktarları](image/plot_1A.png "plot_1A")
 
 ## Plot 1B
-![alt text](image/plot_1B.png "Title")
+![En fazla pestisit kullanılan ilk on il ve toplam kullanılan miktar içindeki payları](image/plot_1B.png "plot_1B")
+
+## Plot 2A
+![Toplam pestisit kullanım miktarının gruplara göre dağılımı](image/plot_2A.png "plot_2A")
+
+## Plot 2B
+![Toplam pestisit kullanım miktarının gruplara göre dağılım yüzdeleri](image/plot_2B.png "plot_2B")
 
 ### Sources:
 - [Official Pesticide Statistics](https://www.tarimorman.gov.tr/GKGM/Menu/115/Resmi-Tarimsal-Ilac-Istatistikleri)
