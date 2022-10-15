@@ -82,12 +82,13 @@ ggplot(data_2, aes(x = A, y = B, fill = A)) +
     subtitle = "Toplam pestisit kullanım miktarının gruplara göre dağılımı",
     x = "",
     y = "Kullanım Miktarı (Ton)",
-    caption = "*Diğerleri: Bitki Aktivatörü+Bitki Gelişim Düzenleyici+Böcek Cezbedici+Fumigant+Nematisit, Kaynak: T.C. Tarım Ve Orman Bakanlığı Gıda Ve Kontrol Genel Müdürlüğü"
+    caption = "*Diğerleri: Bitki Aktivatörü+Bitki Gelişim Düzenleyici+Böcek Cezbedici+Fumigant+Nematisit
+    Kaynak: T.C. Tarım Ve Orman Bakanlığı Gıda Ve Kontrol Genel Müdürlüğü"
   ) +
   theme(
     text = element_text(size = 14),
     axis.title.x = element_text(colour = "grey30",
-                                margin = margin(t = 10, unit = "pt")),
+                                margin = margin(t = 10, b = 10, unit = "pt")),
     panel.grid.major.y = element_blank(),
     legend.position = "none",
     plot.title = element_text(size = 14),
@@ -108,12 +109,13 @@ ggplot(data_2, aes(x = A, y = C, fill = A)) +
     subtitle = "Toplam pestisit kullanım miktarının gruplara göre dağılım yüzdeleri",
     x = "",
     y = "Toplamdaki Payı (%)",
-    caption = "*Diğerleri: Bitki Aktivatörü+Bitki Gelişim Düzenleyici+Böcek Cezbedici+Fumigant+Nematisit, Kaynak: T.C. Tarım Ve Orman Bakanlığı Gıda Ve Kontrol Genel Müdürlüğü"
+    caption = "*Diğerleri: Bitki Aktivatörü+Bitki Gelişim Düzenleyici+Böcek Cezbedici+Fumigant+Nematisit
+    Kaynak: T.C. Tarım Ve Orman Bakanlığı Gıda Ve Kontrol Genel Müdürlüğü"
   ) +
   theme(
     text = element_text(size = 14),
     axis.title.x = element_text(colour = "grey30",
-                                margin = margin(t = 10, unit = "pt")),
+                                margin = margin(t = 10, b = 10, unit = "pt")),
     panel.grid.major.y = element_blank(),
     legend.position = "none",
     plot.title = element_text(size = 14),
