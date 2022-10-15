@@ -10,6 +10,12 @@
 ## Plot 2B
 ![Toplam pestisit kullanım miktarının gruplara göre dağılım yüzdeleri](image/plot_2B.png "plot_2B")
 
+## Plot 3A
+![Toplam pestisit kullanım miktarının gruplara göre yıllık dağılımı](image/plot_3A.png "plot_3A")
+
+## Plot 3B
+![Toplam pestisit kullanım miktarının yıllık dağılımı](image/plot_3B.png "plot_3B")
+
 ### Sources:
 - [Official Pesticide Statistics](https://www.tarimorman.gov.tr/GKGM/Menu/115/Resmi-Tarimsal-Ilac-Istatistikleri)
 - [The Usage Amount of Plant Protection Products (By Grouping) By Years, 2006-2021](https://www.tarimorman.gov.tr/GKGM/Belgeler/DB_Bitki_Koruma_Urunleri/Istatistik/Yillar_Itibariyla_BKU_Kullanim_Miktar_2006-2021.pdf)
